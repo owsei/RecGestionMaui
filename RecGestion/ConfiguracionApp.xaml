@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecGestion.ConfiguracionApp"
+             Title="Configuracion Aplicacion"
+            >
+    <!-- First Tab -->
+    <ContentPage Title="Configuracion" IconImageSource="engranaje.png">
+        <!-- Your content for the first tab goes here -->
+    </ContentPage>
+
+    <!-- Second Tab -->
+    <ContentPage Title="Tab 2">
+        <!-- Your content for the second tab goes here -->
+    </ContentPage>
+
+    <!-- Add more tabs as needed -->
+    <!--<TabBar>
+        <Tab Title="Configuracion" Icon="engranaje.png">
+            <ShellContent></ShellContent>
+        </Tab>
+        <Tab Title="Prueba">
+            <ShellContent></ShellContent>
+        </Tab>
+    </TabBar>-->
+</TabbedPage>

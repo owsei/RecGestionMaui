@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecGestion.LoginPage"
+             Title="Login">
+    <Grid RowDefinitions="40,250,100,200">
+        <Label Grid.Row="0" Text="Login Page" FontSize="20" TextColor="White" Margin="0" Padding="5" BackgroundColor="DarkRed" HeightRequest="40" HorizontalTextAlignment="Center"></Label>
+        <Image Grid.Row="1" Source="https://recvideovigilancia.es/wp-content/uploads/2023/02/cropped-icono_rec.jpg" HorizontalOptions="FillAndExpand"></Image>
+        <StackLayout Grid.Row="2" HorizontalOptions="Center" VerticalOptions="Start" Padding="3">
+            <Label Text="Usuario"></Label>
+            <Entry x:Name="user" Text="" WidthRequest="200"></Entry>
+            <Label Text="Contraseña"></Label>
+            <Entry IsPassword="True" x:Name="password" Text="" WidthRequest="200"></Entry>
+            <Button Text="Acceder" Clicked="btn_access_clicked"></Button>
+        </StackLayout>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "KUUQnxCJ0GaNCPfcE2ZbnwDkKXPXNFLPSxhT2QIMEJy8H3XQ0e3hbawCMP5rrSyGhOWMpnyWKMUN2SlCQFk/Yg==",
+  "success": false,
+  "projectFilePath": "U:\\PROYECTOS\\01 Net\\RecGestion\\RecGestion\\RecGestion.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1012",
+      "level": "Error",
+      "message": "La versión de la plataforma no está presente para una o varias plataformas de destino, aunque se haya especificado una plataforma: net7.0-android, net7.0-ios, net7.0-maccatalyst"
+    }
+  ]
+}
